@@ -34,10 +34,9 @@ be capable of:
 6. Save results with detected keywords, related terms, and scores in a CSV file.
 7. Analyse keyword frequency and generate a word cloud to visualize potential new slang terms.
 
+
 5. Tools and Platform used:
 
-   
- 
 1. Data Collection: Apify's Instagram Hashtag Scraper: The Apify Instagram Hashtag Scraper is used to automate the collection of data from Instagram based on specific hashtags, here we used a predefined manually searched hashtags. It retrieved posts, captions, images, and engagement metrics such as likes and comments associated with the given hashtags.
 2. Programming Language: Python
 3. various libraries were used to work on csv dataset such as Pandas, NumPy, NLTK (Natural Language Toolkit), RapidFuzz.
