@@ -49,7 +49,7 @@ RapidFuzz: A library that applies fuzzy string-matching techniques to compute si
 
 Guide to use the code and flowchart of process:
 
-1. Scrape Instagram post information of various public users on APIFY.carry out a hashtag based scraping,hashtags can include known slang keywords which depict drug related words.
-2. upload the raw data file of scraped data utilizing pythone code "raww data to processed data(cap+hash=text).ipynb" which will remove stopwords and words that are in the dictionary and remove any symbols in the text ,combine the caption and hashtag column to formulate a text column which will be examined later. 
+1. Scrape Instagram post information of various public users on APIFY. Carry out a hashtag based scraping,hashtags can include known slang keywords which depict drug related words.
+2. Upload the raw data file of scraped data utilizing python code "raww data to processed data(cap+hash=text).ipynb" which will remove stopwords and words that are in the dictionary and remove any symbols in the text ,combine the caption and hashtag column to formulate a text column which will be examined later. 
 3. The File obtained in step 2. is further analyzed using fuzzy principle to check which keywords in the text column are slangs that are derived from primitive drug terminology and a score of such slangs is obtained and a new column of there parent word is also obbtained through code "fuzz.ipynb".
 4. Use file obtained from  "fuzz.ipynb" and "raww data to processed data(cap+hash=text).ipynb" to determine the score of posts that contains drug related slangs through code file "Processed posts_ with score.ipynb".This will enable you to determine which posts are more drug related than others and later you can examine image data of the post to validate your results.
